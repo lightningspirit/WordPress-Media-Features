@@ -68,14 +68,12 @@ Frequently Asked Questions
 Changelog
 -----------
 
-0.2
----
+= 0.2 =
 
 * Compatible with version 3.5
 * Bulk categorization of media files
 
-0.1
----
+= 0.1 =
 
 * Initial Release
 * Functionalities:
