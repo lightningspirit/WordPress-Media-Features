@@ -1,11 +1,17 @@
-WordPress-Media-Features
-========================
+=== Media Features ===
+Contributors: lightningspirit
+Tags: plugin, media, upload, feature, features, category, media category, media organization, file types, media types, files organization, files category, media resize, upload resize, upload crop, jpeg quality, jpeg
+Donate link: http://vcarvalho.com/donate/
+Requires at least: 3.5
+Tested up to: 3.5
+Stable tag: 0.2
+License: GPLv2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
-Adds a bunch of new features to Media Files like category organization, file type filter/browser, uploaded image resize, crop and JPEG quality controllers.
+Adds category organization, file type filter/browser, uploaded image resize, crop and JPEG quality controllers.
 
 
-Description
------------
+
+== Description ==
 
 Add functionalities for your media library:
 
@@ -18,7 +24,6 @@ Add functionalities for your media library:
 * Support for PDF and all type of documents organization
 
 Common Supported file extensions:
----------------------------------
 
 * Images: jpg, jpeg, png, gif, tiff, wpmb, svg, swf (flash)
 * Documents: pdf, doc, docx, wri, rtf, xls, xlsx, ppt, pptx, and all OASIS OpenDocument standard extensions
@@ -30,15 +35,14 @@ Common Supported file extensions:
 
 Just install this plugin and adjust to your needs.
 
-Provided Custom Hooks
----------------------
+= Provided Custom Hooks =
 
 This plugin provides 2 custom filters:
 
-1. Change labels and other arguments passed to register_taxonomy function:
+1) Change labels and other arguments passed to register_taxonomy function:
 `add_filter( 'media_category_args', 'my_media_category_args' );`
 
-2. Hooks inside the category postbox HTML used to edit individual file information: 
+2) Hooks inside the category postbox HTML used to edit individual file information: 
 `add_filter( 'media_category_html', 'my_media_category_html' );`
 
 The use of these hooks are recommended, thus, if the plugin gets deactivated, those hooks will not be called anymore and then you get things consistent and clean.
@@ -46,36 +50,39 @@ The use of these hooks are recommended, thus, if the plugin gets deactivated, th
 Do you want to translate it to your language? Just reply to the «Translations» topic in the forum.
 
 
-Installation
-------------
+== Installation ==
 
 1. Upload `media-features` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Configure averything in Options Media page
 
 
-Frequently Asked Questions
---------------------------
+== Frequently Asked Questions ==
 
-1. Will this affect my Wordpress Instalation?
+= Will this affect my Wordpress Instalation? =
 
-	No. The plugin uses the WordPress API to expand functionality.
+No. The plugin uses the WordPress API to expand functionality.
 
-2. I would like to ask for a feature...
+= I would like to ask for a feature... =
 
-	Create a new topic in the plugins forum.
+Create a new topic in the plugins forum.
 
-Changelog
------------
+== Screenshots ==
 
-0.2
----
+1. Organize files and images with categories and filt type
+2. Create categories fo media
+3. Associate categories to files
+4. More controllers for media files
+
+
+== Changelog ==
+
+= 0.2 =
 
 * Compatible with version 3.5
 * Bulk categorization of media files
 
-0.1
----
+= 0.1 =
 
 * Initial Release
 * Functionalities:
@@ -84,8 +91,7 @@ Changelog
  * Adjust JPEG quality percentage
  * Crop and resize uploaded images
 
-Upgrade Notice
---------------
+== Upgrade Notice ==
 
 * Compatible (only) with version 3.5
 * Bulk categorization of media files
